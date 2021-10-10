@@ -1,0 +1,32 @@
+.container {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+header {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.9px solid var(--border);
+  padding-bottom: 1rem;
+}
+.title {
+  background: transparent;
+  font-size: var(--font-title);
+  font-family: var(--font-inter);
+}
+.date {
+  font-size: var(--font-search);
+  background: transparent;
+  font-family: var(--font-inter);
+}
+main {
+  padding: 1rem 0;
+  font-size: var(--font-regular);
+  font-family: var(--font-inter);
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--text-color-3);
+}
+.icon:hover {
+  color: red;
+}

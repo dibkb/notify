@@ -1,0 +1,15 @@
+.navbar {
+   padding: .3rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.9px solid var(--border)
+
+}
+.logo {
+  width: 52px;
+  max-width: 4vw;
+}
+.name {
+  font-size: var(--font-heading);
+  margin-left: 0.9rem;
+}
